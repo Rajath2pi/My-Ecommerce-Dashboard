@@ -1,9 +1,7 @@
 "use client"
 
 import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Menu } from "lucide-react";
-import { Fragment } from "react";
+import { Card, CardContent } from "@/util/ui-common/card";
 
 import Image from "next/image";
 import {
@@ -19,11 +17,9 @@ import {
     Cell,
     Legend,
 } from "recharts";
-import ProjectionsVsActuals from "@/components/bar-graph";
-import RevenueByLocation from "@/components/revenue-locations";
-import SideBar from "../components/sidebar";
-import DonutChart from "@/components/pi-chart";
-import NotificationComponent from "../components/notification";
+import ProjectionsVsActuals from "@/util/ui-common/bar-graph";
+import RevenueByLocation from "@/util/ui-common/revenue-locations";
+import DonutChart from "@/util/ui-common/pi-chart";
 
 const revenueData = [
     { name: "Jan", current: 10, previous: 12 },
