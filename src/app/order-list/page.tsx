@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image"
-import MyRadioButton from "../components/radio-button"
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useMemo, useState } from "react";
 
