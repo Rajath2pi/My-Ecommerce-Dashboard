@@ -173,10 +173,9 @@ export default function Dashboard() {
                             <DonutChart data={chartData} />
                         </div>
                         <ul className="leading-10 p-5">
-                            <li className="flex justify-between"><span>Direct</span> <span>$300.56</span></li>
-                            <li className="flex justify-between"><span>Affilliate</span> <span>$135.56</span></li>
-                            <li className="flex justify-between"><span>Sponsored</span> <span>$154.56</span></li>
-                            <li className="flex justify-between"><span>E-mail</span> <span>$48.56</span></li>
+                            <li className="flex justify-between"><span className='bg-red-600 w-3 h-3 rounded-full mt-4'></span><span>Direct</span> <span>$300.56</span></li>
+                            <li className="flex justify-between"><span className='bg-green-700 w-3 h-3 rounded-full mt-4'></span><span>Affilliate</span> <span>$135.56</span></li>
+                            <li className="flex justify-between"><span className='bg-gray-600 w-3 h-3 rounded-full mt-4'></span><span>Sponsored</span> <span>$154.56</span></li>
                         </ul>
                     </CardContent>
                 </Card>

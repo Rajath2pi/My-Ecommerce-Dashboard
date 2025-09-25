@@ -12,14 +12,14 @@ const locations = [
 export default function RevenueByLocation() {
   return (
     <div className="bg-white dark:bg-gray-900 shadow rounded-2xl p-4 flex flex-col items-center">
-      <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100">Revenue by Location</h2>
+      <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200">Revenue by Location</h2>
       <div className="w-full flex justify-center">
         <Image src={'/images/revenue_location_map.png'} width={200} height={100} alt="World Map" className="opacity-80" />
       </div>
       <div className="space-y-3 w-full">
         {locations.map((loc) => (
           <div key={loc.name}>
-            <div className="flex justify-between text-gray-700 dark:text-gray-300">
+            <div className="flex justify-between text-gray-700 dark:text-gray-200 leading-10">
               <span>{loc.name}</span>
               <span>{loc.value}K</span>
             </div>

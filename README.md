@@ -52,4 +52,8 @@ npm install
 
 npm run dev
 
-Live Demo: https://pixel-perfect-demo.vercel.app
+Follow the live url and its path defined below.
+
+Live Demo: https://my-ecommerce-dashboard-4od4.vercel.app/
+            ├── /home
+            └── /order-list

@@ -25,7 +25,7 @@ export default function HomeLayout({
                 >
                     <div className="p-6 text-xl flex items-center">
                         <Image src={"/images/profile-image.png"} alt="profile-icon" className="mr-5 rounded-full" width={30} height={30} />
-                        ByeWind
+                        Yathrika
                         <button className="md:hidden ml-10" onClick={() => setSidebarOpen(false)}>
                             ✕
                         </button>
@@ -63,12 +63,14 @@ export default function HomeLayout({
                                 <input className="text-sm pl-2 sm:pr-16 pr-5 text-gray-400 hidden dark:block w-3/4 bg-transparent placeholder-gray-600 focus:outline-none focus:ring-0 focus:border-transparent" placeholder="Search" />
                                 <Image src={"/icons/d-text.png"} alt="icon-set" className="w-5 h-5 py-1 hidden dark:block cursor-pointer" width={20} height={"20"} />
                             </div>
-                            <Image src={"/icons/Button.png"} alt="icon-set" className="w-7 h-7 dark:hidden cursor-pointer" width={20} height={"20"} />
+                            <div className="dark:hidden">{"☀️"}</div>
+                            {/* <Image src={"/icons/Button.png"} alt="icon-set" className="w-7 h-7 dark:hidden cursor-pointer" width={20} height={"20"} /> */}
                             <Image src={"/icons/timmer.png"} alt="icon-set" className="w-6 h-6 dark:hidden cursor-pointer" width={20} height={"20"} />
                             <Image src={"/icons/bell.png"} alt="icon-set" className="w-6 h-6 dark:hidden cursor-pointer" width={20} height={"20"} />
                             <Image src={"/icons/vector.png"} alt="icon-set" onClick={() => toggleNotificationBar(true)} className="w-6 h-6 py-0.5 dark:hidden cursor-pointer" width={20} height={"20"} />
                             {/* Dark mode */}
-                            <Image src={"/icons/d-Button.png"} alt="icon-set" className="w-7 h-7 hidden dark:block cursor-pointer" width={20} height={"20"} />
+                            <div className="hidden dark:block">{"🌙"}</div>
+                            {/* <Image src={"/icons/d-Button.png"} alt="icon-set" className="w-7 h-7 hidden dark:block cursor-pointer" width={20} height={"20"} /> */}
                             <Image src={"/icons/d-timmer.png"} alt="icon-set" className="w-6 h-6 hidden dark:block cursor-pointer" width={20} height={"20"} />
                             <Image src={"/icons/d-bell.png"} alt="icon-set" className="w-6 h-6 hidden dark:block" width={20} height={"20"} />
                             <Image src={"/icons/d-Notebook.png"} alt="icon-set" onClick={() => toggleNotificationBar(true)} className="w-6 h-6 py-0.5 hidden dark:block cursor-pointer" width={20} height={"20"} />

@@ -13,7 +13,7 @@ const projectionData = [
 export default function ProjectionsVsActuals() {
   return (
     <div className="bg-white dark:bg-gray-900 shadow rounded-2xl p-4">
-      <h2 className="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-100">Projections vs Actuals</h2>
+      <h2 className="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-200">Projections vs Actuals</h2>
       <ResponsiveContainer width="100%" height={150}>
         <BarChart
           data={projectionData}
