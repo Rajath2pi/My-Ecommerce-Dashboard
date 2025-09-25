@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: any) {
       { name: 'Rajath R Patil', url: 'https://www.linkedin.com/in/rajath-r-patil-42a1a2236/' },
     ],
   };
+}
 
   export default function RootLayout({
     children,
