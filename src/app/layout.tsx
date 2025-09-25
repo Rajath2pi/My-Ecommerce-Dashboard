@@ -7,16 +7,6 @@ import SideBar from "./components/sidebar";
 import { Menu } from "lucide-react";
 import NotificationComponent from "./components/notification";
 
-export async function generateMetadata({ params }: any) {
-  return {
-    title: 'E-commerce Dashboard',
-    description: 'This Project involved implementation of dark and light mood, graphs navigation(sidebar, top-bar), notification bar and Table showing order-list and many details ',
-    authors: [
-      { name: 'Rajath R Patil', url: 'https://www.linkedin.com/in/rajath-r-patil-42a1a2236/' },
-    ],
-  };
-}
-
   export default function RootLayout({
     children,
   }: Readonly<{
