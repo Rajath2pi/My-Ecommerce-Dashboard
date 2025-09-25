@@ -66,7 +66,7 @@ export default function SideBar() {
             {/* Sidebar */}
             <nav className="flex-1 space-y-2 p-4 overflow-y-auto scrollbar-hide">
                 <div className="font-semibold text-gray-500 ">Favorites<span className="pl-10 text-gray-400">  Recently</span></div>
-                <Link href="/" className={`block rounded-xl hover:bg-gray-100 p-2 hover:dark:bg-gray-700 cursor-pointer ${currentPath === '/home' ? "bg-gray-100 p-2 dark:bg-gray-700": ""}`}>Home</Link>
+                <Link href="/" className={`block rounded-xl hover:bg-gray-100 p-2 hover:dark:bg-gray-700 cursor-pointer ${currentPath === '/' ? "bg-gray-100 p-2 dark:bg-gray-700": ""}`}>Home</Link>
                 <Link href="/order-list" className={`block rounded-xl hover:bg-gray-100 p-2 hover:dark:bg-gray-700 cursor-pointer ${currentPath === '/order-list' ? "bg-gray-100 p-2 dark:bg-gray-700": ""}`}>Order-list</Link>
                 {sidebar.map((sideBarOption, menuIdx) => (
                     <div key={"menu_" + menuIdx} className="pt-4 font-semibold text-gray-700 dark:text-white">{sideBarOption.menuName}
