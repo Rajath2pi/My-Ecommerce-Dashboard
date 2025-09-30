@@ -11,7 +11,7 @@ export default function SideBar() {
 
     
     // Track open submenus: key is `${menuIndex}_${subIndex}`
-    const [openSubs, setOpenSubs] = useState<Record<string, boolean>>({});
+    const [openSubs, setOpenSubs] = useState<Record<string, boolean>>({['0_0']:true});
     const currentPath = usePathname();
 
     const sidebar = [
