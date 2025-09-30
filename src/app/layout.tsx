@@ -14,7 +14,7 @@ import NotificationComponent from "./components/notification";
   }>) {
     const [dark, setDark] = React.useState<boolean>(false);
     const [mounted, setMounted] = React.useState(false);
-    const [sidebarOpen, setSidebarOpen] = React.useState(false);
+    const [sidebarOpen, setSidebarOpen] = React.useState(true);
     const [notificationBar, toggleNotificationBar] = React.useState(true)
 
     // Run once on client to set theme correctly
